@@ -1,0 +1,31 @@
+.PlusArena2MainDiv{
+    margin-top: 11%;
+    margin-bottom: 7%;
+}
+
+.PlusArena2Div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 1%;
+}
+
+.ContentPlusDiv{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    padding: 5%;
+    width: 49%;
+}
+
+.ContentPlusDivTitle{
+    font-weight: 600;
+    font-size: x-large;
+    width: 90%;
+}
+
+.ContentPlusDivText{
+    margin-bottom: 0%;
+    font-size: small;
+}

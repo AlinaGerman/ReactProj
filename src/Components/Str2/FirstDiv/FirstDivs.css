@@ -1,0 +1,45 @@
+.FirstDivFon{
+    /*width: 1680px;
+   height: 1832.82px;*/
+   width: 67%;
+}
+
+.FirstDiv0{
+    margin-top: 5%;
+    align-items: start;
+}
+
+.FirstDiv1{
+    color: white;
+    width: 35%;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.FirstDivTitle{
+    font-weight: 600;
+    font-size: 320%;
+    line-height: 105%;
+    margin-bottom: 12%;
+}
+
+.FirstDivBroneButton{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 50px;
+    color: #CE2127;
+    position: relative;
+    padding: 3.5% 0% 2.5% 0%;
+    font-weight: 600;
+    font-size: 75%;
+    border: none;
+    white-space: nowrap;
+}
+
+.FirstDivBroneImg{
+    position: relative;
+    width: 35%;
+    margin-top: -12%;
+    margin-right: -20%;
+    margin-left: 5%;
+}

@@ -1,0 +1,16 @@
+.title{
+    font-weight: 600;
+    font-size: 320%;
+    position:relative;
+    z-index:2;
+    color: black;
+    width: min-content;
+    white-space: nowrap;
+    line-height: 100%;
+    margin-bottom: 3%;
+}
+
+.allDiv{
+    margin-left: 1%;
+    margin-right: 1%;
+}

@@ -1,0 +1,18 @@
+.Games2MainDiv{
+    display: flex;
+    padding: 0% 4% 0% 9%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.Games2Div{
+    width: 49%;
+}
+
+.Games2MainDivDevelop{
+    align-items: center;
+}
+
+.Games2DivDevelop{
+    width: 39%;
+}

@@ -1,0 +1,41 @@
+.ButtonEntertaimentn{
+    color: #CE2127;
+    font-weight: 600;
+    padding: 0.7% 0% 0.7% 0%;
+    border-radius: 20px;
+    border: white solid 5px;
+    min-width: 24.77%;
+    font-size:larger;
+}
+
+.ButtonEntertaimentn.active{
+    color:black;
+    background-color: white;
+    font-size:larger;
+    font-weight: 600;
+}
+
+
+.vectorEnt{
+    border-radius: 20px;
+    border: none;
+    min-width: 24.77%;
+    background-color:  #eeeeee;
+    align-content: center;
+    align-items: center;
+    padding-left: 10.2%;
+    margin-top: -6px;
+    z-index: -1;
+    /*margin-top: -0.3%;*/
+}
+.vectorEvent{
+    border-radius: 30px;
+    border: none;
+    min-width: 19.6%;
+    background-color:  #eeeeee;
+    align-content: center;
+    align-items: center;
+    padding-left: 8.6%;
+    margin-top: -3px;
+    z-index: -1;
+}
