@@ -4,7 +4,7 @@
 //import Entertaiment from "./Entertaiment/Entertaiment.jsx"
 //import Events from "./Events/Events.jsx"
 import Emotions from "./Emotions/Emotions.jsx"
-import Questions from "./Questions/Questions.jsx"
+//import Questions from "./Questions/Questions.jsx"
 import MulCarouselDiv from "./MultyCarousel/MulCarouselDiv.jsx"
 
 import { dataStarPeople } from "./MultyCarousel/dataStarPeople";
