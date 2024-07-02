@@ -1,0 +1,132 @@
+.showBuyTicket{
+    border: none;
+    background: none;
+    margin-left: 21%;
+    top: 5%;
+    width: 60%;
+    max-height: 100%;
+    scrollbar-width: none;
+}
+
+.showBuyTicketDiv{
+    background: none;
+    border-radius: 40px;
+    border: none;
+    overflow:visible;
+    padding:5%;
+    position:relative;
+}
+
+.showBuyTicketList{
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #EEEEEE;
+    border-radius: 40px;
+    border: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 5% 5%;
+    
+}
+
+.div-no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.div-no-scrollbar {
+    scrollbar-width: none;
+}
+
+.CloseButtonBuyTicket{
+    border-radius:500px;
+    border:none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: none;
+    z-index: 100;
+    width: 5%;
+}
+
+
+/*.showBuyTicketOl{
+
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.showBuyTicketOl li::marker{
+    color: white;
+    z-index: 1000;
+    position: relative !important;
+    font-size: xx-large;
+    content: url(./li1.png);
+    
+    background-color: #CE2127 !important;
+    
+    width:  80px;
+height:  80px;
+padding: 10px 30px 10px 30px;
+gap: 10px;
+border-radius: 50px 0px 0px 0px;
+opacity: 0;
+
+}
+
+.ElementBuyTicketModalLi{
+    position: relative !important;
+    z-index: 1000;
+}
+.ElementBuyTicketModalLi::before{
+   background-color: #CE2127 !important;
+    color: black;
+    
+    font-size: xx-large;
+    width:  80px;
+height:  80px;
+padding: 10px 30px 10px 30px;
+gap: 10px;
+border-radius: 50px 0px 0px 0px;
+opacity: 0;
+
+    content: "";
+    border-radius: 50px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+    left: -50px;
+    background: #CE2127;
+    position: absolute;
+    z-index: 0;
+}*/
+
+.BuyTicketModalDivDots{
+    position: absolute;
+    margin-left: 4%;
+    z-index: 0;
+}
+
+.BuyTicketModalDiv{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.ElementBuyTicketModalDiv{
+    width: 88%;
+    margin-top: 2%;
+    
+}
+
+
+.ElementBuyTicketModalTitle{
+    color: black;
+    font-weight: 600;
+}
+
+.ElementTicketModalTitleDiv{
+    display: flex;
+    justify-content: space-between;
+}

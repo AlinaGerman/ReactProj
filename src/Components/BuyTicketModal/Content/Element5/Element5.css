@@ -1,0 +1,77 @@
+.Element5Kod{
+    background-color: white;
+    border-radius: 30px;
+    padding: 5%;    
+}
+
+.Element5KodTel{
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.Element5Div{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.Element5Text{
+    opacity: 0.5;
+    font-size: smaller;
+    margin-bottom: 3%;
+}
+.Element5Text1{
+    font-size: 75%;
+}
+
+.Element5Form{
+    border-radius: 50px;
+    margin-bottom: 3%;
+    border: 2px solid #0000004D;
+    padding: 3%;
+    width: 100%;
+}
+
+.Element5Button{
+    background-color: #CE2127;
+    color: white;
+    border-radius: 50px;
+    border:  #CE2127 solid 2px;
+    padding: 4%;
+    font-size: small;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.Element5Button2{
+    color: black;
+    background-color: white;
+    margin-bottom: 0%;
+}
+
+.Element5Bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #CE21274D;
+    border-radius: 10px;
+    padding: 5% 2% 3% 2%;
+    color: #CE2127;
+    width: 48%;
+    height: 100%;
+}
+
+.Element5BonusText{
+    margin-bottom: 0%;
+    font-size: small;
+    width: 60%;
+}
+
+.Element5BonusBall{
+    font-size: xx-large;
+    font-weight: 600;
+}

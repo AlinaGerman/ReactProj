@@ -1,0 +1,81 @@
+.itemCarouselElement3{
+    min-width: 50% !important;
+}
+.Element3Month{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    color: black;
+    padding: 0% 5%;
+}
+
+.Element3Div{
+    margin-bottom: 10%;
+    position: relative;
+    width: 100%;
+}
+.Element3Div::after{
+    content: "";
+	text-align: right;
+	position: absolute;
+	
+	right: 0;
+	top: 0;
+    margin-right: -3%;
+    margin-top: -1%;
+	height: 100%;
+    width: 11%;
+    background: linear-gradient(to right, #EEEEEE 0%, #EEEEEE 11.37%, #EEEEEE 88.61%, #EEEEEE 100%);
+    opacity: 0.9;
+	pointer-events: none;
+    filter: blur(1.3rem);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.Element3DivDiv{
+    position: relative;
+    width: 100%;
+}
+.Element3DivDiv::after{
+    content: "";
+	text-align: right;
+	position: absolute;
+	
+	left: 0;
+	top: 0;
+    margin-left: -3%;
+    margin-top: -1%;
+	height: 100%;
+    width: 11%;
+   
+    background: linear-gradient(to left, #EEEEEE 0%, #EEEEEE 11.37%, #EEEEEE 88.61%, #EEEEEE 100%);
+
+    opacity: 0.9;
+	pointer-events: none;
+    filter: blur(1.3rem);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.Element3ItemDiv{
+    padding: 15%;
+    border-radius: 15px;
+    border: 4px white solid;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    color: #CE2127;
+}
+.Element3ItemDiv.active{
+    background-color: white;
+    color: black;
+}
+
+.Element3ItemText{
+    margin-bottom: 0%;
+    font-size: small;
+    font-weight: 600;
+    line-height: 120%;
+}

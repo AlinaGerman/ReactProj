@@ -1,0 +1,117 @@
+.Element2Div{
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.Element2Div::after{
+    content: "";
+	text-align: right;
+	position: absolute;
+	
+	right: 0;
+	top: 0;
+    margin-right: -3%;
+    margin-top: -1%;
+	height: 115%;
+    width: 11%;
+    background: linear-gradient(to right, #EEEEEE 88.54%, #EEEEEE 100%);
+    opacity: 0.9;
+	pointer-events: none;
+    filter: blur(1.3rem);
+    border-radius: 0px 30px 30px 0px;
+}
+
+@media (orientation: portrait){
+    .Element2Div{
+        width: 100%;
+    }
+}
+
+
+.Element2ItemDiv{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    min-height: 9.5rem;
+    width: 98%;
+    border-radius: 30px;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    position: relative;
+    height: 100%;
+}
+
+.Element2ChoisePlace{
+    background-image: url('./picture/place.png');
+}
+.Element2CityZ{
+    background-image: url('./picture/cityZ.jpg');
+}
+.Element2CityZSurvivors{
+    background-image: url('./picture/survivors.jpg');
+}
+.Element2CityZAntidote{
+    background-image: url('./picture/antidote.jpg');
+}
+.Element2Revolta{
+    background-image: url('./picture/revolta2.jpg');
+}
+.Element2StationZarya{
+    background-image: url('./picture/StationZarya.jpg');
+}
+.Element2LostSantuary{
+    background-image: url('./picture/LostSanctuary.jpg');
+}
+
+.Element2ItemInfo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.Element2ItemTitleButton{
+    background: linear-gradient(3.01deg, rgba(0, 0, 0, 0.6) 63.82%, rgba(0, 0, 0, 0) 96.09%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    margin: 0%;
+}
+
+.Element2ItemTitle{
+    font-size: small;
+    margin-bottom: 1%;
+   
+    text-align: center;
+}
+
+.Element2ItemButton{
+    background: none;
+    border-radius: 50px;
+    border: #FFFFFF 4px solid;
+    padding: 1% 8%;
+    color: #CE2127;
+    font-weight: 600;
+    font-size: small;
+    margin-bottom: 7%;
+    margin-top: 0%;
+}
+
+.Element2ItemButton.active{
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,87 @@
+.Element4List{
+    overflow-y: scroll;
+    height:  23rem;
+    width: 100%;
+    margin-bottom: 7%;
+    padding-left: 0%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 2% 0%;
+    position: relative;
+}
+.div-no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.div-no-scrollbar {
+    scrollbar-width: none;
+}
+
+.Element4DivDiv{
+    position: relative;
+}
+.Element4DivDiv::after{
+    content: "";
+	position: absolute;
+	
+	right: 0;
+	top: 0;
+    left: 0;
+	height: 12%;
+    width: 100%;
+    background: linear-gradient(to top, #EEEEEE 0%, #EEEEEE 11.37%, #EEEEEE 88.61%, #EEEEEE 100%);
+    opacity: 1;
+	pointer-events: none;
+    filter: blur(1.1rem);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.Element4Div{
+    position: relative;
+    margin-bottom: 10%;
+}
+.Element4Div::after{
+    content: "";
+	text-align: right;
+	position: absolute;
+	
+	right: 0;
+    left: 0;
+	bottom: 0;
+    
+	height: 10%;
+    width: 100%;
+    background: linear-gradient(to bottom, #EEEEEE 0%, #EEEEEE 11.37%, #EEEEEE 88.61%, #EEEEEE 100%);
+    opacity: 0.9;
+	pointer-events: none;
+    filter: blur(1.3rem);
+    border-radius: 0px 30px 30px 0px;
+}
+
+
+.Element4ItemLi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 5px white solid;
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 1%;
+    color: #CE2127;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.Element4ItemLi.active{
+    color: black;
+    background-color: white;
+}
+
+.Element4ItemLi.disabled{
+    background-color: #0000001A;
+    border: 5px #0000001A solid;
+    color: black;
+    opacity: 0.4;
+    cursor:not-allowed;
+}
+
