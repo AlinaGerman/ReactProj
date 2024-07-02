@@ -1,0 +1,91 @@
+.navButton{
+  background: none;
+  font-size: smaller;
+  border: none; 
+  margin-top: 0%;
+  white-space: nowrap;
+  font-weight: 400;
+  padding: 0%;
+  text-decoration: none;
+  color: black;
+}
+.navButton:hover{
+  color: #CE2127;
+}
+.vector{
+  font-size: 150%;
+  margin-left: 3%;
+  padding: 0%;
+
+}
+
+.dropdown-entertainment {
+  position: absolute;
+  display: inline-block;
+  padding-top: 0.7%;
+  margin-top: 10%
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #e08c8c;
+  min-width: 18rem;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10%;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuContents{
+  width: 32%;
+}
+
+.menuContact{
+  width: 26%;
+}
+
+/*.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-family: 'euclid-circular-a';
+}
+  
+.menu-items {
+  display: flex;
+}*/
+
+@media screen and (max-width: 600px) {
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: -20%;
+    background-color: white;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    border: none;
+    font-size: 170%;
+    padding: 1% 2%;
+    background-color: white;
+  }
+  
+  .menu-items.show {
+    display: flex;
+  }
+}
+  

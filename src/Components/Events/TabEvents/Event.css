@@ -1,0 +1,58 @@
+.eventDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2.5% 0% 2.5% 0%;
+    max-height: min-content;
+}
+
+.eventImg{
+    width: 15%;
+    height: auto;
+}
+
+.eventTitle{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.eventText{
+    font-size: large;
+    color: black;
+    margin-bottom: 7%;
+}
+.eventButton{
+    color: white;
+    font-size: 75%;
+    background-color: #CE2127;
+    border-radius: 50px;
+    border: #CE2127 solid 2px;
+    padding: 2.5% 7% 2.5% 7%;
+    margin-bottom: 5%;
+}
+.buttonDetailEvent{
+    border-radius: 50px;
+    border: #CE2127 solid 2px;
+    padding: 2.5% 7% 2.5% 7%;
+    font-size: 75%;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.vectEvent{
+    width: 20%;
+    margin-left: 3%;
+    margin-top: -5%;
+}
+
+.infoEvent{
+    color: #CE2127;
+    text-decoration: none;
+    margin-right: 7%;
+    font-size: small;
+}

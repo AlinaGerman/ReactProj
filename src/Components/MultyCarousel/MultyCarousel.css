@@ -1,0 +1,35 @@
+.carouselMultyDiv{
+    width: 100%;
+}
+
+.carouselMulty{
+    width: 100%;
+}
+
+
+.react-multi-carousel-track{
+    align-items: center;
+}
+
+.react-multiple-carousel__arrow::before{
+    color: black !important;
+}
+
+.react-multiple-carousel__arrow{
+    background: white;
+    opacity: 1;
+}
+.react-multiple-carousel__arrow:hover{
+    background: white;
+    opacity: 1;
+}
+.react-multiple-carousel__arrow--right{
+    right: 0%;
+    top: 43%;
+    box-shadow: 0px 20px 50px 5px #00000026;
+}
+.react-multiple-carousel__arrow--left{
+    left: 0%;
+    top: 43%;
+    box-shadow: 0px 20px 50px 10px #00000026;
+}

@@ -1,0 +1,88 @@
+.carouselFooter{
+    background-color: #CE2127E5;
+    padding: 2% 0%;
+    width: 100%;
+    height: min-content;
+}
+
+.FooterDiv1{
+    background-color: #070707;
+    color: white;
+    padding: 4% 10%;
+    display: flex;
+    gap: 6%;
+}
+
+.pictureDivs{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.aFooter{
+    text-decoration: none;
+    color: white;
+}
+.pFrooter{
+    font-size: smaller;
+    opacity: 1;
+    font-weight: 400;
+}
+.pFrooterBlur{
+    opacity: 0.5;
+}
+
+.telephoneFooter{
+    font-weight: 400;
+    margin-bottom: 13%;
+}
+
+.socialFooter{
+    width: 13%;
+    margin-right: 2%;
+}
+
+.FooterButton{
+    color: white;
+    border-radius: 50px;
+    padding: 3% 7.5%;
+    font-size: 78%;
+}
+
+.FooterButtonByeTicket{
+    background-color: #CE2127;
+    border: #CE2127 2px solid;
+    margin-right: 2%;
+}
+
+.FooterButtonBrone{
+    border: #CE2127 2px solid;
+    background: none;
+}
+
+
+
+
+.FooterDiv2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+    padding: 2% 4%;
+}
+
+.FooterDiv2Polit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+.FooterPolit{
+    font-weight: 400;
+    font-size: 75%;
+    white-space: nowrap;
+    margin-bottom: 0%;
+}

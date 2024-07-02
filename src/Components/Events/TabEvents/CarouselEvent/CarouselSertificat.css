@@ -1,0 +1,60 @@
+.fonSertificat{
+    border-radius: 30px;
+    width: 32%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.divSertificatEvent{
+    position: relative;
+    z-index: 2;
+    margin:5% 7%;
+}
+
+.titleSertificat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0%;
+    color: black;
+    max-height: min-content;
+    margin-top: 0%;
+}
+
+.titleContentSertificat{
+    font-weight: 900;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: black;
+}
+.priceContentSertificat{
+    font-weight:900;
+    font-size: 330%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: black;
+}
+
+.hrContentSertificat{
+    margin-top: 1.5%;
+    margin-bottom: 4%;
+    color: #a2a2a2;
+}
+
+.listSertificat{
+    list-style-type: disc;
+    width: 73%;
+    padding-left: 1.5rem;
+    color: black;
+}
+
+.giveSertificat{
+    background-color: #CE2127;
+    color: white;
+    border-radius: 50px;
+    border:#CE2127;
+    padding: 2% 4.5% 2% 4.5%;
+    font-size: 75%;
+}

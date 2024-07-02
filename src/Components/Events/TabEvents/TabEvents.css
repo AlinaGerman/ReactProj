@@ -1,0 +1,34 @@
+.eventButtonDiv{
+    display: flex;
+    align-content: center;
+}
+
+.ButtonEvent{
+    display: flex;
+    align-items: center;
+
+    color: #CE2127;
+    padding: 0.7% 1.5% 0.7% 1.5%;
+    border-radius: 30px;
+    border: white 5px solid;
+    min-width: 19.6%;
+
+    font-weight: 600;
+    text-align: left;
+    line-height: 140%;
+    font-size: 110%;
+
+    /*margin-bottom: 2%;*/
+}
+.ButtonEvent.active{
+    color: black;
+    background-color: white;
+}
+
+.iconEvent{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 8%;
+    margin-top: 1%;
+}

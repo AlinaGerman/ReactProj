@@ -1,0 +1,16 @@
+.placeFooterDiv{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.PlaceFooterDiv2{
+    text-align: end;
+    vertical-align: bottom;
+    margin-right: 7%;
+}
+
+.PlaceFooterDiv2Text{
+    font-size: small;
+}

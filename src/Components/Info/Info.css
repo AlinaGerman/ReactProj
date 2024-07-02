@@ -1,0 +1,42 @@
+.logo-name{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;    
+    color: black;
+}
+.countries-club{
+    display: flex;
+    justify-content: center;
+    line-height: 150%;
+    width: 80%;
+    height: 100%;
+    margin-top: 6%;
+    margin-right: 1%;
+    margin-left: 4.5%;
+}
+
+.countries-club-title{
+    font-weight: 600;
+    font-size: 440%;
+    margin-top: 5%;
+    text-align: center;
+}
+.countries-club-text{
+    font-weight: 600;
+    font-size: 160%;
+    text-align: center;
+}
+
+.info-title{
+    font-weight: 600;
+    font-size: 280%;
+}
+.info-text{
+    font-weight: 400;
+    font-size: 120%;
+    
+}
