@@ -13,10 +13,10 @@ import { dataStarPeople } from "./MultyCarousel/dataStarPeople";
 export default function Str1(){
     return(
         <>
-        <StartDiv str1={true} style={{marginBottom:'10%'}}></StartDiv>
+            {/*<StartDiv str1={true} style={{marginBottom:'10%'}}></StartDiv>
         <Reasons></Reasons>
         <Info></Info>
-        <Entertaiment></Entertaiment>
+        <Entertaiment></Entertaiment>*/}
         <Emotions str1={true} buttonName='КУПИТЬ БИЛЕТ В ПАРК'>Неподдельные эмоции наших гостей</Emotions>
         <Events></Events>
         <MulCarouselDiv type='StarPeople' style={{marginBottom:'1%'}} buttonClass='buyTicket' buyTicketButton={true}
