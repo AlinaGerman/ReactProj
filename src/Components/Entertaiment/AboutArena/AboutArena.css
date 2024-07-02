@@ -1,0 +1,122 @@
+.aboutArenaDiv{
+    background-color: #EEEEEE;
+    border-radius: 40px;
+    border: none;
+    padding: 2.5% 2.2% 2.3% 2.5%;
+    margin-left: 18%;
+    top: 12%;
+    overflow: visible;
+    width: 65%;
+}
+
+.closeButtonArena{
+    border-radius:500px;
+    border:none;
+    top: 0;
+    margin-top: -4.5%;
+    margin-right: -4.5%;
+    right: 0;
+   
+    position: absolute;
+    background-color: none;
+    z-index: 100;
+}
+dialog:-internal-dialog-in-top-layer::backdrop{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.gridAboutArena{
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    grid-template-rows: repeat(3, 8.9rem);
+}
+.AboutArenaContentDiv{
+    background-color: white;
+    border-radius: 30px;
+    padding: 4.5%;
+    padding-top: 5%;
+    
+    overflow: hidden;
+    margin-bottom: 2%;
+   
+    grid-column: 2;   
+}
+.AboutArenaContentDiv.active{
+    border: solid #CE2127 5px;
+   
+    height: 100%;
+    margin-right: 2%;
+    
+    grid-column: 1 ;
+    grid-row: 1 / 4 ;
+}
+
+.AboutArenaContentTitle{
+    font-weight: 600;
+    font-size: x-large;
+    width: min-content;
+}
+.AboutArenaContentTitle.active{
+    font-size: 220%;
+}
+
+.AboutArenaContentTitnePrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+.AboutArenaContentPrice{
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    padding: 1% 2%;
+}
+.AboutArenaContentPriceTitle{
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 0%;
+}
+.AboutArenaContentPriceText{
+    font-size: small;
+    margin-bottom: 0%;
+}
+
+.AboutArenaContentOsobennost{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.AboutArenaContentOsobennostText{
+    margin-bottom: 0%;
+    font-weight: 600;
+    font-size: large;
+    margin-right: 2%;
+}
+
+.AboutArenaContentList{
+    padding-left: 6%;
+}
+.AboutArenaContentLi{
+    font-size: small;
+}
+
+.AboutArenaContentMark{
+    font-size: small;
+    color: #00000080;
+    margin-top: 3%;
+}
+
+.timeTablePrice{
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #CE2127;
+    padding: 3% 0% ;
+    background-color: white;
+    font-weight: 600;
+    font-size: small;
+}

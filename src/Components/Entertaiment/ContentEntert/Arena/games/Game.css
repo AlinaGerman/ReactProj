@@ -1,0 +1,122 @@
+.gameDiv{
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    min-height: 25em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 12%;
+
+    color: white;
+}
+
+.gameDivCityZ{
+    background-image: url('./games1/cityZ.jpg');
+    min-width: 32%;
+}
+.gameDivSurvivors{
+    background-image: url('./games1/survivors.jpg');
+    min-width: 32%;
+
+}
+.gameDivAntidote{
+    background-image: url('./games1/antidote.jpg');
+    min-width: 32%;
+}
+
+.gameDivStationZarya{
+    background-image: url('./games3/StationZarya3.jpg');
+    min-width: 49%;
+}
+
+.gameDivLostSanctuary{
+    background-image: url('./games3/LostSanctuary4.jpg');
+    min-width: 49%;
+}
+
+.playGame1{
+    width: 13%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.playGame3{
+    width: 9%;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+
+.titleGame{
+    font-weight: 500;
+    font-size: 150%;
+    margin-bottom: 3%;
+}
+
+
+.aboutGameDiv1{
+    display: flex;
+    justify-content: space-between;
+    min-width: 45%;
+    align-items: center;
+}
+.aboutGameDiv3{
+    display: flex;
+    justify-content: space-between;
+    min-width: 35%;
+    align-items: center;
+    margin-top: -1%;
+}
+.aboutGameDiv3Kvest{
+    display: flex;
+    justify-content: space-between;
+    min-width: 30%;
+    align-items: center;
+    margin-top: -1%;
+}
+
+
+.aboutGame{
+    font-weight: 200;
+    font-size: 80%;
+}
+
+.gameButton{
+    color: white;
+    border-radius: 50px;
+    padding: 2% 6% 2% 6%;
+    font-size: 75%;
+    font-weight: 500;
+}
+
+.broneButtonArena{
+    background-color: #CE2127;
+    border: #CE2127 solid 2px;
+    margin-right: 3%;
+}
+
+.detailesButtonArena{
+    border: white solid 2px;
+    background: none;
+}
+
+
+.showDetalies{
+    background-color: #EEEEEE;
+    border-radius: 40px;
+    border: none;
+    padding: 2.5% 2.2% 2.3% 2.5%;
+    margin-left: 18%;
+    top: 9%;
+    overflow: visible;
+    width: 65%;
+}
+
+.showDetaliesDiv{
+    border-radius: 30px;
+    display: flex;   
+}

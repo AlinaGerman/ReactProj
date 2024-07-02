@@ -1,0 +1,54 @@
+.ArenaImgTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arenaImg{
+    /*float: right;
+    width: 55%;
+    position: relative;
+    margin-top: -8.5%;
+    /*margin-left: 33%;
+    z-index: 0;*/
+    width: 63%;
+    margin-top: -3%;
+}
+
+.infoArena{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 85%;
+    margin-bottom: 3%;
+}
+
+.ArenaHoliday{
+    font-weight: 400;
+    max-width: 85%/*32%*/;
+    font-size: 120%;
+    margin-bottom: 3%;
+}
+
+.priceButton{
+    border-radius: 50px;
+    background-color: #CE2127;
+    color: white;
+    padding: 2.5% 6.5%;
+    border: #CE2127 solid 2px;
+    font-size: 75%;
+    margin-right: 3%;
+    font-weight: 500;
+}
+.detailesButton{
+    border-radius: 50px;
+    background-color: white;
+    border: #CE2127 solid 2px;
+    padding: 2.5% 6.5%;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.gamesDiv{
+    display: flex;
+    justify-content: space-between;
+}

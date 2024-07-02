@@ -1,0 +1,17 @@
+.mainDivArena{
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 6%;
+    position: relative;
+}
+
+.mobileArena{
+    display: none;
+}
+
+@media (orientation: portrait){
+    .mobileArena{
+        display:block
+    }
+}

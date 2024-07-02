@@ -1,0 +1,30 @@
+.PriceWeekDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.PriceWeekDay{
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+.PriceWeekDiv2{
+    display:inline;
+    background-color: #EEEEEE;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0.8% 9%;
+    border-radius: 10px;
+}
+.PriceWeekDiv2Price{
+    font-weight: 600;
+    font-size: larger;
+    margin-right: 3%;
+    white-space: nowrap;
+}
+.PriceWeekDiv2Info{
+    font-size: small;
+    white-space: nowrap;
+}

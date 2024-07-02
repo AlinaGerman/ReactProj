@@ -1,0 +1,39 @@
+.gameDivRevolta{
+    background-image: url('./revolta2.jpg');
+
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    min-height: 30em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 15%;
+    margin-bottom: 2%;
+
+    color: white;
+}
+.playGame2{
+    width: 5%;
+    margin-bottom: 11%;
+    cursor: pointer;
+}
+.aboutGame2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+}
+
+.aboutGameDiv2{
+    display: flex;
+    justify-content: space-between;
+    min-width: 17%;
+    align-items: center;
+    font-size: 115%;
+}
