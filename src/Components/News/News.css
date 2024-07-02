@@ -1,0 +1,55 @@
+.allNews{
+    color: black;
+    background:none;
+    border-radius: 50px;
+    border: solid #CE2127 3px;
+    padding: 0.8% 2%;
+    font-weight: 600;
+    font-size: small;
+}
+
+
+.NewsItemDiv{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 11%;
+    border: none;
+    height: 34rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    
+}
+
+.NewsItemDays{
+    margin-bottom: 3%;
+    font-size: small;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.NewsItemTitle{
+    font-weight:600;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 98%;
+}
+
+.NewsItemText{
+    font-weight: 400;
+    font-size: small;
+}
+
+.NewsItemButton{
+    color: black;
+    background: none;
+    border-radius: 50px;
+    border: solid #CE2127 3px;
+    padding: 2% 8%;
+    font-size: 70%;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 11%;
+}

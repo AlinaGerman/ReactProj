@@ -1,0 +1,106 @@
+.QuestionsMainDiv{
+    position:relative;
+    margin-bottom: 3%;
+}
+
+.QuestionsFon{
+    display: flex;
+    justify-content: center;
+}
+
+.QuestionsDiv{
+    position: relative;
+    margin-top: -50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12% 8%;
+    width: 100%;
+}
+
+.QuestionsTitleText{
+    width: 25%;
+}
+
+.QuestionsTitle{
+    color: black;
+    
+    font-weight: 600;
+    font-size: 325%;
+    line-height: 100%;
+
+    margin-bottom: 10%;
+}
+
+.QuestionsText{
+    color: black;
+    width: 70%;
+}
+.QuestionsTelephoneDiv{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 11%;
+}
+
+.QuestionsImgTelephone{
+    margin-right: 2%;
+}
+
+.QuestionsTelephone{
+    color: black;
+    font-weight: 600;
+    height: min-content;
+}
+
+.QuestionsFormTelephoneDiv{
+    background-color: white;
+    padding: 3%;
+    border-radius: 50px;
+    width: 28%;
+    box-shadow: 0px 20px 50px 0px #00000026;
+}
+
+.QuestionsFormTelephoneTitle{
+    color: black;
+    font-weight: 600;
+}
+
+.QuestionsFormTelephone{
+    border-radius: 50px;
+    border: solid 2px #e1e1e1;
+    padding: 4% 5%;
+    width: 100%;
+    font-size: small;
+    /*color: #00000073;*/
+    opacity: 0.7;
+    margin-bottom: 3%;
+    
+}
+.QuestionsFormQuestion{
+    height: 7rem;
+    text-align:start;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    vertical-align: 0;
+}
+
+.QuestionsCustoms{
+    font-size: 70%;
+    color: #00000073;
+    margin-bottom: 0;
+}
+
+
+
+
+
+.buttonForm{
+    color: white;
+    background-color: #CE2127;
+    border-radius: 50px;
+    border: #CE2127;
+    width: 100%;
+    padding: 5%;
+    font-size: 80%;
+    font-weight: 400;
+    margin-bottom: 8%;
+}

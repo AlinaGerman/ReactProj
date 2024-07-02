@@ -1,0 +1,54 @@
+.carouselD{
+    width: min-content;
+    height: min-content;
+    margin-top: 8%;
+    /*margin-left:8%;
+    margin-top:30%;
+    z-index:5;
+    position:absolute;*/
+}
+
+.carousel-indicators{
+    bottom: -35% !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    margin-left: 1.5% !important;
+    margin-right: 1.5% !important;
+}
+
+.carousel-control-prev{
+    margin-top:6%;
+    margin-left:-7.5%;
+    opacity: 1 !important;
+    
+}
+.carousel-control-next{
+    margin-top:6%;
+    margin-right:-7.5%;
+    opacity: 1 !important;
+}
+.carousel-control-prev-icon {
+    background-image: url('./prev.svg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat:no-repeat !important;
+
+    width: 120px !important;
+    height: 120px !important;
+}
+.carousel-control-next-icon {
+    background-image: url('./next.svg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat:no-repeat !important;
+
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.discount_img{
+    width: 400px;
+}

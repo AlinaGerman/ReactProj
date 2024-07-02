@@ -1,0 +1,55 @@
+.allSales{
+    color: black;
+    background:none;
+    border-radius: 50px;
+    border: solid #CE2127 3px;
+    padding: 0.8% 2%;
+    font-weight: 600;
+    font-size: small;
+}
+
+
+.SalesItemDiv{
+    background-color: #CE2127;
+    border-radius: 30px;
+    color: white;
+    padding: 11%;
+    border: none;
+    height: 27rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+}
+
+.SalesItemDays{
+    margin-bottom: 3%;
+    font-size: small;
+    font-weight: 400;
+}
+
+.SalesItemTitleImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.SalesItemText{
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 1.5%;
+}
+
+.SalesItemButton{
+    color: white;
+    background: none;
+    border-radius: 50px;
+    border: solid white 2px;
+    padding: 3% 9%;
+    font-size: x-small;
+    font-weight: 400;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 11%;
+}

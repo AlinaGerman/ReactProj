@@ -1,0 +1,33 @@
+.plan{
+    float:right;
+    width:72%;
+    position: relative;
+    margin-top: -53%;
+    margin-right: -4%;
+}
+
+.reasonDiv{
+    max-width:39.5%;
+    z-index:2;
+    display:flex;
+    margin-bottom: 1.5%;
+}
+.icon-reason{
+    margin-right:3%;
+    height:100%;
+    width: 11%;
+    margin-top:1%;
+}
+.titleReason{
+    font-weight: 600;
+    font-size: 170%;
+    color: black;
+    line-height:100%;
+    max-width: 80%
+}
+.textReason{
+    font-weight: 400;
+    font-size: 100%;
+    color: black;
+    line-height:135%;
+}

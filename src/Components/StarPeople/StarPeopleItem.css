@@ -1,0 +1,20 @@
+.itemDivStarPeople{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.StarPeopleItemText{
+    font-weight: 400;
+    font-size: large;
+    width: 90%;
+    margin-top: -9%;
+}
+
+.StarPeoplePoint{
+    margin-left: 48%;
+    margin-top: 2%;
+}
