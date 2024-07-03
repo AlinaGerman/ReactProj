@@ -1,0 +1,16 @@
+.holidLink{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    width: 100%;
+    color: black;
+    margin-bottom: 7%;
+    cursor: pointer;
+}
+
+.holidLinkText{
+    margin-bottom: 0%;
+    font-size: 75%;
+    font-weight: 600;
+    margin-left: 7%;
+}

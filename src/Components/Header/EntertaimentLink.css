@@ -1,0 +1,50 @@
+.EntertLink{
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    min-height: 5.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    border-radius: 10px;
+    padding: 0%;
+    width: 100%;
+    font-size: smaller;
+    position: relative;
+  }
+  
+  .EntertLinkTextDiv{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    border-radius: 0px 0px 10px 10px;
+    filter: blur(0.3rem);
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.5) 82.29%, rgba(0, 0, 0, 0.5) 82.29%);
+    height: 1.9rem;
+  }
+  .EntertLinkText{
+    filter: blur(0rem);
+    margin-bottom: 2%;
+  }
+  
+  .EntertLinkArena{
+    background-image: url('./imagesEntert/l1.png');
+  }
+  .EntertLinkKub{
+    background-image: url('./imagesEntert/l2.jpg');
+  }
+  .EntertLinkAttraction{
+    background-image: url('./imagesEntert/l3.png');
+  }
+  .EntertLinkStend{
+    background-image: url('./imagesEntert/l4.jpg');
+  }
+  .EntertLinkPVP{
+    background-image: url('./imagesEntert/l5.jpg');
+  }
+  .EntertLinkTicket{
+    background-image: url('./imagesEntert/l6.png');
+  }
